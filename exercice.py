@@ -12,7 +12,12 @@ def get_bill(name, data):
 
 
 def format_number(number, num_decimal_digits):
-	return ""
+	number = list(number)
+	print(number)
+
+	return []
+
+
 
 def get_triangle(num_rows):
 	return ""
